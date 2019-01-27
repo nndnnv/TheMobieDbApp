@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">The Movie DB</string>
+    <string name="title_activity_movie_details">MovieDetailsActivity</string>
+    <string name="main_activity_title">The Movie DB</string>
+    <string name="top_movies_title">Top Movies</string>
+    <string name="top_tv_shows_title">Top Tv Shows</string>
+</resources>
