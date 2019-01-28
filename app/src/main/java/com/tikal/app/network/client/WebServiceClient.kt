@@ -1,5 +1,6 @@
 package com.tikal.app.network.client
 
+import com.tikal.app.network.api.TheMovieDbAPI
 import okhttp3.ConnectionSpec
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
@@ -29,7 +30,7 @@ object WebServiceClient {
 
             if (retrofit == null) {
                 retrofit = Retrofit.Builder()
-                        .baseUrl("https://api.themoviedb.org")
+                        .baseUrl(TheMovieDbAPI.API_BASE_URL)
                         .addConverterFactory(GsonConverterFactory.create())
                         .client(okHttpClient)
                         .build()

@@ -9,6 +9,8 @@ interface TheMovieDbAPI
 {
     companion object
     {
+        val API_BASE_URL = "https://api.themoviedb.org"
+
         private val IMAGES_BASE_URL = "https://image.tmdb.org/t/p/w500"
 
         fun ImageUrl(imageUrl: String): String
@@ -17,8 +19,7 @@ interface TheMovieDbAPI
         }
     }
 
-    //https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=fcdfd79c30e154916697e57b429c7b07
-
+    
     @GET("/3/movie/popular")
     fun TOP_MOVIES(
         @Query("api_key") apiKey: String,
