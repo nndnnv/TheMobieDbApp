@@ -2,10 +2,10 @@
 
 Tikal Android Test App
 
-  - Retrofit for feting data from The Movie DB API
+  - Retrofit for fetching data from The Movie DB API
   - Picasso for image loading and caching
   - Room for saving local data
-  - Implemented Infinite Scroll for RecyclerView
+  - Implemented infinite scroll for RecyclerView
   - Online & offline support
   - Tablets support
   - MVVM Architecture + LiveData + Repo
