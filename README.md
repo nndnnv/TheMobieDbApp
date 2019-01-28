@@ -10,3 +10,11 @@ Tikal Android Test App
   - Tablets support
   - MVVM Architecture + LiveData + Repo
   - Written in Kotlin :)
+  
+  # Phone
+ <img src="https://github.com/nndnnv/TheMobieDbApp/blob/master/screenshots/phone1.jpg" width="200"/>   <img src="https://github.com/nndnnv/TheMobieDbApp/blob/master/screenshots/phone2.jpg" width="200"/> <img src="https://github.com/nndnnv/TheMobieDbApp/blob/master/screenshots/phone3.jpg" height="200"/>
+ 
+ 
+ # Tablet
+ <img src="https://github.com/nndnnv/TheMobieDbApp/blob/master/screenshots/tablet.jpg" width="200"/>   <img src="https://github.com/nndnnv/TheMobieDbApp/blob/master/screenshots/tablet-land.jpg" height="265"/>
+
